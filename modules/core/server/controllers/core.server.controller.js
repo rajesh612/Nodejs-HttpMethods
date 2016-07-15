@@ -18,7 +18,7 @@ module.exports.createContact = function(req,res){
 
     if (!contact){
         res.status(400);
-        res.end("Error: It's an Error Man");
+        res.end("Error: Invalid Contact");
     }
     contact = mockService.saveContact(contact);
     if (contact){
