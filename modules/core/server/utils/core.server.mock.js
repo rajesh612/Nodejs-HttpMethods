@@ -29,9 +29,6 @@ module.exports.updateContact = function (id,nContact) {
             return contacts[j];
         }
     }
-
-    contacts.push(ccontact);
-    return ccontact;
 }
 
 //To fetch all contacts
